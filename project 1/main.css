@@ -1,0 +1,73 @@
+html{
+    height:100%;
+}
+body{
+    background-color:#2F3035;
+    background-image: url(images/background-adare-restaurant.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+.wrapper{
+    margin-right:auto;
+    margin-left:auto;
+    width:1024px;
+    }
+header{
+    height:118px;
+    text-align:center;
+}
+nav{
+    background-color:rgba(0, 0, 0, 0.338);
+    text-align:center;
+    padding-top: 14px;
+    padding-bottom:14px;
+}
+main{
+    height:400px;
+    padding-top:80px;
+    padding-left:240px;
+    padding-right:240px;
+    text-align:center;
+}
+footer{
+    background-color:rgba(0, 0, 0, 0.728);
+ }
+header img{
+   margin-top:-40px;
+    }
+h1{
+    color:white;
+    font-size:84px;
+    font-family:Arial, Helvetica, sans-serif;
+    }
+p{
+    color:white;
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+a{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav a{
+    font-size:12px;
+    padding-left:10px;
+    padding-right:10px;
+    text-decoration: none;
+    /* or you can write like this, give class to nav tad and write
+    .no-underline{
+        text-decoration: none;
+    }*/
+}
+footer p{
+    font-size:10px;
+    text-align:center;
+    color:rgb(164, 155, 155);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.maps{
+    padding-bottom:80px;
+}
